@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 12pt;
+    font-size: 48pt;
     background-color: #848603;
     color: #c20caa;
     margin: 12pt;
