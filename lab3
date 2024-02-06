@@ -1,9 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
-    background-color: #f0f0f0;
+    background-color: #848603;
+    color: #c20caa;
+    margin: 12pt;
 }
 
 h1 {
-    color: #e30d0d;
+    color: #ae082faa;
 }
