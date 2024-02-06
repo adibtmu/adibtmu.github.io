@@ -7,11 +7,14 @@ body {
 }
 
 h1 {
-    color: #ec1616;
+    color: #ea0000;
+    font-size: 48pt;
 }
 h2 {
-    color: #e53434;
+    color: #e84646;
+    font-size: 36pt;
 }
 h3 {
-    color: #eb7373;
+    color: #e56c6c;
+    font-size: 28pt;
 }
