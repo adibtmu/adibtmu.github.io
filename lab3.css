@@ -22,16 +22,24 @@ h3 {
 p {
     font-size:14pt;
 }
-a:hover {
-    color: #ff6600; 
-    transform: scale(1.5); 
+.text {
+    margin-bottom: 12px;
+}
+.link a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: #ff6600;
+    transform: scale(1.5);
     transition: transform 0.3s ease;
 }
 
-a:active {
-    color: #b10101; 
+.link a:active {
+    color: #940404;
 }
 
-a:visited {
-    color: #552982; 
+.link a:visited {
+    color: #361557;
 }
