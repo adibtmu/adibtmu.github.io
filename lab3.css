@@ -3,6 +3,7 @@ body {
     font-size: 12pt;
     background-color: #fffb00;
     color: #0d0978;
+    margin: 11pt;
     
 }
 
@@ -11,10 +12,13 @@ h1 {
     font-size: 36pt;
 }
 h2 {
-    color: #7d7904;
+    color: #14047d;
     font-size: 28pt;
 }
 h3 {
-    color: #7d8a38;
+    color: #2c196e;
     font-size: 20pt;
+}
+p {
+    font-size:14pt;
 }
