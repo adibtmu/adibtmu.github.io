@@ -43,3 +43,8 @@ p {
 .link a:visited {
     color: #361557;
 }
+
+#photo {
+    max-width: 30%;
+    height: auto;
+}
