@@ -45,6 +45,8 @@ p {
 }
 
 #photo {
+    display: block; /* center aligns the image */
+    margin: 0 auto;
     max-width: 30%;
     height: auto;
 }
