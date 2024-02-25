@@ -9,7 +9,7 @@ function askForName() {
 }
 
 function enlargeImage(image) { //enlarges image when clicked on
-    image.style.transform = "scale(2)";
-    image.style.transition = "transform 0.3s ease";
-    image.style.zIndex = "9999";
+    image.style.transform = "scale(1.2)"; 
+    image.style.transition = "transform 0.5s ease"; //makes it gradually increase in size
+    image.style.zIndex = "9999"; //makes it overlap all other competing elements
 }
