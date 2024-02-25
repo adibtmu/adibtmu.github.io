@@ -13,3 +13,11 @@ function enlargeImage(image) { //enlarges image when clicked on
     image.style.transition = "transform 0.5s ease"; //makes it gradually increase in size
     image.style.zIndex = "9999"; //makes it overlap all other competing elements
 }
+
+function highlight(element) { //onmouseover event
+    element.style.backgroundColor = "#f0f0f0";
+}
+
+function unhighlight(element) { //onmouseout event
+    element.style.backgroundColor = "transparent";
+}
