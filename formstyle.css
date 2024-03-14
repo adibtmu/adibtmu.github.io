@@ -84,3 +84,41 @@ footer {
     margin-bottom: 10px;
     
 }
+p:nth-of-type(4)::before {
+    content: "In which industry do you work? ";
+    font-weight: bold;
+}
+p:nth-of-type(2)::before {
+    content: "Name: ";
+    font-weight: bold;
+}
+
+p:nth-of-type(4)::before {
+    content: "Email: ";
+    font-weight: bold;
+}
+
+p:nth-of-type(6)::before {
+    content: "Current Career: ";
+    font-weight: bold;
+}
+
+p:nth-of-type(8)::before {
+    content: "In which industry do you work? ";
+    font-weight: bold;
+}
+
+p:nth-of-type(10)::before {
+    content: "How can we help each other accomplish our professional goals? ";
+    font-weight: bold;
+}
+
+p:nth-of-type(12)::before {
+    content: "How did you find my site? ";
+    font-weight: bold;
+}
+
+p:nth-of-type(14)::before {
+    content: "Would you be interested in a coffee chat in Toronto? ";
+    font-weight: bold;
+}
