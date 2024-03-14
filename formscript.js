@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     form.addEventListener('reset', function() {
-        // Clear all stored data when form is reset
+        // Clear all stored data when reset button pressed
         localStorage.clear();
     });
 
