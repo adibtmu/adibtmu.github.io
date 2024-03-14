@@ -72,3 +72,14 @@ footer {
     background-color: #333;
     color: white;
 }
+
+.contact-form input[type="checkbox"], /*industry question formatted weirdly, this makes it more readable*/
+.contact-form input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
