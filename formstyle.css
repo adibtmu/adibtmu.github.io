@@ -83,3 +83,7 @@ footer {
 .contact-form p {
     margin-bottom: 10px;
 }
+
+p {
+    font-weight: bold;
+}
