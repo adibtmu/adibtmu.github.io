@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Me</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Send me a message</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+
+                <label for="interests">Interests:</label><br>
+                <input type="checkbox" id="programming" name="interests" value="programming">
+                <label for="programming">Programming</label>
+                <input type="checkbox" id="design" name="interests" value="design">
+                <label for="design">Design</label>
+                <input type="checkbox" id="fitness" name="interests" value="fitness">
+                <label for="fitness">Fitness</label><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+
+                <label for="how">How did you hear about us?</label><br>
+                <select id="how" name="how">
+                    <option value="word_of_mouth">Word of Mouth</option>
+                    <option value="search_engine">Search Engine</option>
+                    <option value="social_media">Social Media</option>
+                    <option value="other">Other</option>
+                </select><br>
+
+                <label for="subscribe">Subscribe to our newsletter?</label><br>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
 </body>
 </html>
