@@ -82,9 +82,13 @@ footer {
 
 .contact-form p {
     margin-bottom: 10px;
-    font-weight:bold;
+    
 }
 
 p {
+    font-weight: bold;
+}
+p:nth-of-type(4)::before {
+    content: "In which industry do you work? ";
     font-weight: bold;
 }
