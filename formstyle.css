@@ -73,7 +73,7 @@ footer {
     color: white;
 }
 
-.contact-form input[type="checkbox"],
+.contact-form input[type="checkbox"], /*attempted to format options, could not figure out*/
 .contact-form label {
     display: inline-block;
     margin-right: 10px;
