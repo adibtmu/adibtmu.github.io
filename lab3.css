@@ -84,7 +84,7 @@ a:hover {
     text-decoration: underline;
 }
 .high-contrast,
-.high-contrast * {
+.high-contrast * { /*The asterick overrides previous style commands to turn all text yellow*/
     background-color: black;
     color: yellow;
 }
