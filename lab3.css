@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #f8f9fa;
     color: #333;
     margin: 0;
@@ -9,29 +9,29 @@ body {
 
 h1 {
     color: #333;
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 h2 {
     color: #333;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 h3 {
     color: #333;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .text {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .link a {
@@ -62,7 +62,7 @@ nav {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 0.625rem 0;
 }
 
 ul {
@@ -72,7 +72,7 @@ ul {
 
 li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 a {
@@ -84,7 +84,7 @@ a:hover {
     text-decoration: underline;
 }
 .high-contrast,
-.high-contrast * { /*The asterick overrides previous style commands to turn all text yellow*/
+.high-contrast * {
     background-color: black;
     color: yellow;
 }
