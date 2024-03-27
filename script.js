@@ -24,3 +24,9 @@ function unhighlight(element) { //onmouseout event
 function highContrast() { //function for high contrast button
     document.body.classList.toggle('high-contrast');
 }
+function increaseFontSize() {
+    
+    let currentSize = window.getComputedStyle(document.body).fontSize; //find current font size
+    let currentSizeNum = parseInt(currentSize, 10); // convert to int to iterate
+    document.body.style.fontSize = `${currentSizeNum + 1}px`; //increase font size
+}
