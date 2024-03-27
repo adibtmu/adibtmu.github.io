@@ -28,5 +28,5 @@ function increaseFontSize() {
     
     let currentSize = window.getComputedStyle(document.body).fontSize; //find current font size
     let currentSizeNum = parseInt(currentSize, 10); // convert to int to iterate
-    document.body.style.fontSize = `${currentSizeNum + 1}px`; //increase font size
+    document.body.style.fontSize = `${currentSizeNum + 3}px`; //increase font size
 }
