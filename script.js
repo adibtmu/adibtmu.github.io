@@ -21,3 +21,6 @@ function highlight(element) { //onmouseover event
 function unhighlight(element) { //onmouseout event
     element.style.backgroundColor = "transparent";
 }
+function highContrast() {
+    document.body.classList.toggle('high-contrast');
+}
