@@ -3,61 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adib: Network Enthusiast</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="lab3.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <nav>
         <ul>
-            <li onmouseover="highlight(this)" onmouseout="unhighlight(this)"><a href="contact.html">Get in Touch!</a></li>
-            <li onmouseover="highlight(this)" onmouseout="unhighlight(this)"><a href="academics.html">Academics</a></li>
-            <li onmouseover="highlight(this)" onmouseout="unhighlight(this)"><a href="https://my.torontomu.ca/">TMU Portal</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
         </ul>
     </nav>
-    <header>
-        <h1>ADIB CHOWDHURY - NETWORK SECURITY ENTHUSIAST</h1>
-        <button onclick="highContrast()">Turn On High Contrast Mode</button> 
-        <button onclick="increaseFontSize()">Increase Font Size</button>
-    </header>
-    
-        <img src="photo.png" onclick="enlargeImage(this)" alt="Adib Chowdhury" id="photo">
-        <a href="https://twitter.com/adibchyy">
-            <img src="twitter-icon.png" alt="Twitter" id="twitter-icon">
-        </a>
-    </a>
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>I am a final-year student studying Business Technology Management with a strong passion for network security. I am currently working towards my CCNA, and have experience in network management, blockchain, and cloud security. I currently work at High School Prep, an e-learning company focused on high school students applying to university in Ontario.</p>
+    <section id="about">
+        <h1>About Me</h1>
+        <img src="photo.png" alt="Your Photo" style="width:200px;height:auto;">
+        <p>Paragraph.</p>
     </section>
-
     <section id="projects">
-        <h2>Projects</h2>
+        <h2>My Projects</h2>
+        <!-- Example project -->
         <div class="project">
-            <h3>Chute - Save the environment and make money in your free time.</h3>
-            <p>Second Place Overall | Best IoT Hack using a Qualcomm Device | Best Beginner Hack</p>
+            <h3>Chute</h3>
+            <p>Project description</p>
         </div>
-        <div class="project">
-            <h3>High School Prep - Get into your dream university.</h3>
-            <p>An e-learning startup offering online courses to help grade 12 students achieve their academic goals.</p>
-        </div>
-        <div class="project">
-            <h3>PCMR Hub - A community of PC enthusiasts.</h3>
-            <p>An online community of over 70,000 members sharing news and information about the latest PC hardware.</p>
-        </div>
+        <!-- Add more projects as needed -->
     </section>
-
-        <h3>Extra-curricular Activities</h3>
+    <section id="education">
+        <h2>My Education</h2>
+        <p>List your educational background here. For example:</p>
         <ul>
-            <li>High School Prep - President (2020-Present)</li>
-            <li>Aviation Club - Vice President (2019-2022)</li>
-            <li>Electric City Hacks - 2nd Place (2020)</li>
+            <li>Bachelor of Business Administration in Business Technology Management, Toronto Metropolitan University, 2020-2024</li>
+            <!-- Add more as needed -->
         </ul>
     </section>
-
     <footer>
-        <p>For more details, please visit my <a href="https://www.highschoolprep.ca">company</a>.</p>
+        <p>© 2024 Your Name</p>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
