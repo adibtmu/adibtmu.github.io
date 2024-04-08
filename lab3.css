@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #323;
-    color: #fff;
+    color: #310505;
     padding: 20px;
 }
 
@@ -25,7 +25,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(142, 14, 14);
     text-decoration: none;
 }
 
